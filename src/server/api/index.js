@@ -1,6 +1,6 @@
 import { Router } from 'express'
 
-import posts from './posts'
+import posts from './posts/index'
 
 const router = Router()
 
