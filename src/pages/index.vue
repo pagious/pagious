@@ -17,6 +17,7 @@
   import axios from '~/plugins/axios'
 
   export default {
+    layout: 'blog',
     async asyncData () {
       let {data} = await axios.get('/api/posts')
       return {posts: data}

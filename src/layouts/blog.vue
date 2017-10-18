@@ -7,15 +7,15 @@
 </template>
 
 <script>
-  import PgHeader from '~/components/default/Header.vue'
-  import PgFooter from '~/components/default/Footer.vue'
+    import PgHeader from '~/components/blog/Header.vue'
+    import PgFooter from '~/components/blog/Footer.vue'
 
-  export default {
-    components: {
-      PgHeader,
-      PgFooter
+    export default {
+      components: {
+        PgHeader,
+        PgFooter
+      }
     }
-  }
 </script>
 
 <style>
