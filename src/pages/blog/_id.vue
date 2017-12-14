@@ -1,6 +1,6 @@
 <template>
     <section>
-        <h1 style="font-size: 24px; color: #f00; font-weight: 700;">Web Page</h1>
+        <h1 style="font-size: 24px; color: #0c0; font-weight: 700;">Blog Page</h1>
         <html-parser v-html="post.html"></html-parser>
     </section>
 </template>

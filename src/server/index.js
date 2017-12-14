@@ -1,5 +1,5 @@
 import express from 'express'
-import { Nuxt, Builder } from 'nuxt'
+import {Nuxt, Builder} from 'nuxt'
 
 import api from './api'
 
@@ -21,8 +21,8 @@ const nuxt = new Nuxt(config)
 
 // Build only in dev mode
 if (config.dev) {
-  const builder = new Builder(nuxt)
-  builder.build()
+    const builder = new Builder(nuxt)
+    builder.build()
 }
 
 // Give nuxt middleware to express

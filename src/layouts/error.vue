@@ -12,9 +12,9 @@
     </section>
 </template>
 <script>
-  export default {
-    props: ['error']
-  }
+    export default {
+        props: ['error']
+    }
 </script>
 
 <style scoped>
@@ -29,7 +29,7 @@
         margin: 0;
     }
 
-    .error{
+    .error {
         color: #cc0000;
     }
 
